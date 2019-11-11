@@ -2,19 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\NServiceBus.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Description>Easy integration with Microsoft.Extensions.Hosting for NServiceBus</Description>
+    <Description>NServiceBus integration with the ASP.NET Core 2 (WebHost) hosting model.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.1" />
     <PackageReference Include="NServiceBus" Version="[7.2.0, 8.0.0)" />
     <PackageReference Include="Particular.CodeRules" Version="0.2.1" PrivateAssets="All" />
-    <PackageReference Include="Particular.Packaging" Version="0.3.0" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
