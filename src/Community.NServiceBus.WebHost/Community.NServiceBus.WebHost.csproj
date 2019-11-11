@@ -2,10 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
-
-  <PropertyGroup>
+    <PackageId>Community.NServiceBus.WebHost</PackageId>
+    <Authors>Tim Bussmann</Authors>
     <Description>NServiceBus integration with the ASP.NET Core 2 (WebHost) hosting model.</Description>
+    <PackageProjectUrl>https://github.com/timbussmann/Community.NServiceBus.WebHost</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/timbussmann/Community.NServiceBus.WebHost</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
