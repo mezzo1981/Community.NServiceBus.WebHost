@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.NServiceBus.WebHost.Demo", "Community.NServiceBus.WebHost.Demo\Community.NServiceBus.WebHost.Demo.csproj", "{A41E7F5A-AC2E-42A5-A862-8D6D744CDC47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{A97C68F9-5695-4065-958F-5AF16568A2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A97C68F9-5695-4065-958F-5AF16568A2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A97C68F9-5695-4065-958F-5AF16568A2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41E7F5A-AC2E-42A5-A862-8D6D744CDC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41E7F5A-AC2E-42A5-A862-8D6D744CDC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41E7F5A-AC2E-42A5-A862-8D6D744CDC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41E7F5A-AC2E-42A5-A862-8D6D744CDC47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
